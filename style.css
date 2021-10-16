@@ -129,7 +129,6 @@ html,body{
 .city_grid_image{
     position: relative;
     margin: 10px 5px 0px 5px;
-    border: 2px dashed black;
 }
 .city_grid_image img{
     width: 100%;
