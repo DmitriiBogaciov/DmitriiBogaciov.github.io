@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pages",
+    "\\pages\\Asia",
+    "\\pages\\europe"
   ],
+  "SelectedNode": "\\pages\\Asia\\seoul_asia.html",
   "PreviewInSolutionExplorer": false
 }
