@@ -158,6 +158,7 @@ html,body{
 }
 .city_grid_image {
     position: relative;
+    transition: opacity 0.4s linear;
 }
 .city_grid_image img{
     width: 100%;
@@ -252,6 +253,9 @@ html,body{
     .text_center_footer{
         font-size: 15px;
     }
+    .city_grid_image:hover{
+        opacity: 0.8;
+    }
 }
 @media (max-width: 767px){
     .header_menu{
@@ -281,5 +285,10 @@ html,body{
         display: grid;
 
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media print {
+    .container {
+        width: 800px;
     }
 }
