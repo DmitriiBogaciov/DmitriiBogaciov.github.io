@@ -195,7 +195,7 @@ html,body{
 }
 .search_bar button:before {
     content: "\f002";
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 20px;
     color: gray;
 }
@@ -209,6 +209,10 @@ html,body{
 }
 .city_grid_image {
     position: relative;
+    transition: opacity 0.4s linear;
+}
+.city_grid_image:hover{
+    opacity: 0.8;
 }
 .city_grid_image img{
     width: 100%;
