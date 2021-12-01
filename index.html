@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="wrapper">
 <head>
     <meta charset="UTF-8">
     <title>ShowPlaces</title>
@@ -20,7 +21,6 @@
             </div>
             <nav class="header_menu">
                 <ul class="header_list">
-
                     <li>
                         <a href="europe.html" class="header_link">Europe</a>
                     </li>
@@ -49,13 +49,36 @@
     <div class="container">
         <div class="search_bar">
             <img src="img/main.jpg" alt="">
+            <div class="elastic_search">
             <form>
                 <div>
-                    <label for="search"></label>
-                    <input id="search" type="text" placeholder="Search...">
+                    <label for="elastic"></label>
+                    <input id="elastic" type="text" placeholder="Search...">
                     <button type="submit"></button>
                 </div>
             </form>
+                <div class="results">
+                    <ul class="elastic">
+                        <a href="pages/asia/seoul_asia.html"><li>Seoul</li></a>
+                        <a href="pages/europe/london_europe.html"><li>London</li></a>
+                        <a href="pages/europe/paris_europe.html"><li>Paris</li></a>
+                        <a href="pages/europe/prague_europe.html"><li>Prague</li></a>
+                        <a href="pages/northAmerica/chicago_northAmerica.html"><li>Chicago</li></a>
+                        <a href="pages/northAmerica/havana_northAmerica.html"><li>Havana</li></a>
+                        <a href="pages/northAmerica/losAngeles_northAmerica.html"><li>Los Angeles</li></a>
+                        <a href="pages/northAmerica/mexico_northAmerica.html"><li>Mexico</li></a>
+                        <a href="pages/northAmerica/newYork_northAmerica.html"><li>New York</li></a>
+                        <a href="pages/northAmerica/toronto_northAmerica.html"><li>Toronto</li></a>
+                        <a href="pages/southAmerica/bogota_southAmerica.html"><li>Bogota</li></a>
+                        <a href="pages/southAmerica/brasilia_southAmerica.html"><li>Brasilia</li></a>
+                        <a href="pages/southAmerica/buenosAires_southAmerica.html"><li>Buenos Aires</li></a>
+                        <a href="pages/southAmerica/caracas_southAmerica.html"><li>Caracas</li></a>
+                        <a href="pages/southAmerica/cusco_southAmerica.html"><li>Cusco</li></a>
+                        <a href="pages/southAmerica/rioDeJaneiro_southAmerica.html"><li>Rio De Janeiro</li></a>
+
+                    </ul>
+                </div>
+            </div>
         </div>
     <div class="main_grid">
         <!--                    Resent views-->
@@ -154,4 +177,5 @@
 </body>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/script.js"></script>
+</div>
 </html>
