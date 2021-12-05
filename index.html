@@ -1,180 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <div class="wrapper">
-<head>
-    <meta charset="UTF-8">
-    <title>ShowPlaces</title>
-    <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-</head>
-<body>
-<header class="header">
-    <div class="container">
-        <div class="header_body">
-            <a href="index.html" class="header_logo">
-                <img src="img/logo.png" alt="">
-                <span>ShowPlaces</span>
-            </a>
-            <div class="header_burger">
-                <span></span>
-            </div>
-            <nav class="header_menu">
-                <ul class="header_list">
-                    <li>
-                        <a href="europe.html" class="header_link">Europe</a>
-                    </li>
-                    <li>
-                        <a href="asia.html" class="header_link">Asia</a>
-                    </li>
-                    <li>
-                        <a href="northAmerica.html" class="header_link">North America</a>
-                    </li>
-                    <li>
-                        <a href="southAmerica.html" class="header_link">South America</a>
-                    </li>
-                    <li>
-                        <a href="africa.html" class="header_link">Africa</a>
-                    </li>
-                    <li>
-                        <a href="australia.html" class="header_link">Australia</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-
-</header>
-<main class="main">
-    <div class="container">
-        <div class="search_bar">
-            <img src="img/main.jpg" alt="">
-            <div class="elastic_search">
-            <form>
-                <div>
-                    <label for="elastic"></label>
-                    <input id="elastic" type="text" placeholder="Search...">
-                    <button type="submit"></button>
+    <head>
+        <meta charset="UTF-8">
+        <title>ShowPlaces</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    </head>
+    <body>
+    <header class="header">
+        <div class="container">
+            <div class="header_body">
+                <a href="index.html" class="header_logo">
+                    <img src="img/logo.png" alt="">
+                    <span>ShowPlaces</span>
+                </a>
+                <div class="header_burger">
+                    <span></span>
                 </div>
-            </form>
-                <div class="results">
-                    <ul class="elastic">
-                        <a href="pages/asia/seoul_asia.html"><li>Seoul</li></a>
-                        <a href="pages/europe/london_europe.html"><li>London</li></a>
-                        <a href="pages/europe/paris_europe.html"><li>Paris</li></a>
-                        <a href="pages/europe/prague_europe.html"><li>Prague</li></a>
-                        <a href="pages/northAmerica/chicago_northAmerica.html"><li>Chicago</li></a>
-                        <a href="pages/northAmerica/havana_northAmerica.html"><li>Havana</li></a>
-                        <a href="pages/northAmerica/losAngeles_northAmerica.html"><li>Los Angeles</li></a>
-                        <a href="pages/northAmerica/mexico_northAmerica.html"><li>Mexico</li></a>
-                        <a href="pages/northAmerica/newYork_northAmerica.html"><li>New York</li></a>
-                        <a href="pages/northAmerica/toronto_northAmerica.html"><li>Toronto</li></a>
-                        <a href="pages/southAmerica/bogota_southAmerica.html"><li>Bogota</li></a>
-                        <a href="pages/southAmerica/brasilia_southAmerica.html"><li>Brasilia</li></a>
-                        <a href="pages/southAmerica/buenosAires_southAmerica.html"><li>Buenos Aires</li></a>
-                        <a href="pages/southAmerica/caracas_southAmerica.html"><li>Caracas</li></a>
-                        <a href="pages/southAmerica/cusco_southAmerica.html"><li>Cusco</li></a>
-                        <a href="pages/southAmerica/rioDeJaneiro_southAmerica.html"><li>Rio De Janeiro</li></a>
-
+                <nav class="header_menu">
+                    <ul class="header_list">
+                        <li>
+                            <a href="europe.html" class="header_link">Europe</a>
+                        </li>
+                        <li>
+                            <a href="asia.html" class="header_link">Asia</a>
+                        </li>
+                        <li>
+                            <a href="northAmerica.html" class="header_link">North America</a>
+                        </li>
+                        <li>
+                            <a href="southAmerica.html" class="header_link">South America</a>
+                        </li>
+                        <li>
+                            <a href="africa.html" class="header_link">Africa</a>
+                        </li>
+                        <li>
+                            <a href="australia.html" class="header_link">Australia</a>
+                        </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
-    <div class="main_grid">
-        <!--                    Resent views-->
-        <h2 class="h2_main">Your recent views</h2>
-        <div class="content_grid">
-            <div class="city_grid_image">
-                <a href="pages/europe/prague_europe.html">
-                    <img src="img/charlesBridge_prague.jpg" alt="">
-                    <h1 class="city_name_image"><span>Prague</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/europe/paris_europe.html">
-                    <img src="img/paris_europe.jpg" alt="">
-                    <h1 class="city_name_image"><span>Paris</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/asia/seoul_asia.html">
-                    <img src="img/seoul_asia.jpg" alt="">
-                    <h1 class="city_name_image"><span>Seoul</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/southAmerica/buenosAires_southAmerica.html">
-                    <img src="img/buenosAires_southAmerica.jpg" alt="">
-                    <h1 class="city_name_image"><span>Buenos Aires</span></h1>
-                </a>
-            </div>
-        </div>
-        <!--                    Top destinations-->
-        <h2 class="h2_main">Top destination</h2>
-        <div class="content_grid">
-            <div class="city_grid_image">
-                <a href="pages/northAmerica/toronto_northAmerica.html">
-                    <img src="img/toronto_northAmerica.jpg" alt="">
-                    <h1 class="city_name_image"><span>Toronto</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/northAmerica/losAngeles_northAmerica.html">
-                    <img src="img/losAngeles_northAmerica.jpg" alt="">
-                    <h1 class="city_name_image"><span>Los Angeles</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/europe/london_europe.html">
-                    <img src="img/london_europe.jpg" alt="">
-                    <h1 class="city_name_image"><span>London</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/europe/paris_europe.html">
-                    <img src="img/paris_europe.jpg" alt="">
-                    <h1 class="city_name_image"><span>Paris</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/southAmerica/bogota_southAmerica.html">
-                    <img src="img/bogota_southAmerica.jpg" alt="">
-                    <h1 class="city_name_image"><span>Bogotá</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/europe/prague_europe.html">
-                    <img src="img/charlesBridge_prague.jpg" alt="">
-                    <h1 class="city_name_image"><span>Prague</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/northAmerica/chicago_northAmerica.html">
-                    <img src="img/chicago_northAmerica.jpg" alt="">
-                    <h1 class="city_name_image"><span>Chicago</span></h1>
-                </a>
-            </div>
-            <div class="city_grid_image">
-                <a href="pages/asia/seoul_asia.html">
-                    <img src="img/seoul_asia.jpg" alt="">
-                    <h1 class="city_name_image"><span>Seoul</span></h1>
-                </a>
-            </div>
 
-        </div>
-    </div>
-    </div>
-</main>
-        <footer class="footer">
-            <div class="container">
-                <div class="about_us">
-                    <p class="text_center_footer">Made by students of the Czech University of Life Sciences Prague</p>
-                    <p class="text_center_footer">Authors: Dmitrii Bogaciov, Dmitriy Shemet, Denis Bykov</p>
-                    <p class="text_center_footer">Student project 2021</p>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="search_bar">
+                <img src="img/main.jpg" alt="">
+                <div class="elastic_search">
+                    <form>
+                        <div>
+                            <label for="elastic"></label>
+                            <input id="elastic" type="text" placeholder="Search...">
+                            <button type="submit"></button>
+                        </div>
+                    </form>
+                    <div class="results">
+                        <ul class="elastic">
+                            <a href="pages/asia/seoul_asia.html">
+                                <li>Seoul</li>
+                            </a>
+                            <a href="pages/europe/london_europe.html">
+                                <li>London</li>
+                            </a>
+                            <a href="pages/europe/paris_europe.html">
+                                <li>Paris</li>
+                            </a>
+                            <a href="pages/europe/prague_europe.html">
+                                <li>Prague</li>
+                            </a>
+                            <a href="pages/northAmerica/chicago_northAmerica.html">
+                                <li>Chicago</li>
+                            </a>
+                            <a href="pages/northAmerica/havana_northAmerica.html">
+                                <li>Havana</li>
+                            </a>
+                            <a href="pages/northAmerica/losAngeles_northAmerica.html">
+                                <li>Los Angeles</li>
+                            </a>
+                            <a href="pages/northAmerica/mexico_northAmerica.html">
+                                <li>Mexico</li>
+                            </a>
+                            <a href="pages/northAmerica/newYork_northAmerica.html">
+                                <li>New York</li>
+                            </a>
+                            <a href="pages/northAmerica/toronto_northAmerica.html">
+                                <li>Toronto</li>
+                            </a>
+                            <a href="pages/southAmerica/bogota_southAmerica.html">
+                                <li>Bogota</li>
+                            </a>
+                            <a href="pages/southAmerica/brasilia_southAmerica.html">
+                                <li>Brasilia</li>
+                            </a>
+                            <a href="pages/southAmerica/buenosAires_southAmerica.html">
+                                <li>Buenos Aires</li>
+                            </a>
+                            <a href="pages/southAmerica/caracas_southAmerica.html">
+                                <li>Caracas</li>
+                            </a>
+                            <a href="pages/southAmerica/cusco_southAmerica.html">
+                                <li>Cusco</li>
+                            </a>
+                            <a href="pages/southAmerica/rioDeJaneiro_southAmerica.html">
+                                <li>Rio De Janeiro</li>
+                            </a>
+                            <a href="pages/africa/cairo.html">
+                                <li>Cairo</li>
+                            </a>
+                            <a href="pages/africa/cape_town.html">
+                                <li>Cape Town</li>
+                            </a>
+                            <a href="pages/africa/lagos.html">
+                                <li>Lagos</li>
+                            </a>
+                            <a href="pages/africa/madaga.html">
+                                <li>Madaga</li>
+                            </a>
+                            <a href="pages/australia/brisbane.html">
+                                <li>Brisbane</li>
+                            </a>
+                            <a href="pages/australia/melburn.html">
+                                <li>Melburn</li>
+                            </a>
+                            <a href="pages/australia/sydney.html">
+                                <li>Sydney</li>
+                            </a>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </footer>
-</body>
+            <div class="main_grid">
+                <!--                    Resent views-->
+                <h2 class="h2_main">Your recent views</h2>
+                <div class="content_grid">
+                    <div class="city_grid_image">
+                        <a href="pages/europe/prague_europe.html">
+                            <img src="img/charlesBridge_prague.jpg" alt="">
+                            <h1 class="city_name_image"><span>Prague</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/europe/paris_europe.html">
+                            <img src="img/paris_europe.jpg" alt="">
+                            <h1 class="city_name_image"><span>Paris</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/asia/seoul_asia.html">
+                            <img src="img/seoul_asia.jpg" alt="">
+                            <h1 class="city_name_image"><span>Seoul</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/southAmerica/buenosAires_southAmerica.html">
+                            <img src="img/buenosAires_southAmerica.jpg" alt="">
+                            <h1 class="city_name_image"><span>Buenos Aires</span></h1>
+                        </a>
+                    </div>
+                </div>
+                <!--                    Top destinations-->
+                <h2 class="h2_main">Top destination</h2>
+                <div class="content_grid">
+                    <div class="city_grid_image">
+                        <a href="pages/northAmerica/toronto_northAmerica.html">
+                            <img src="img/toronto_northAmerica.jpg" alt="">
+                            <h1 class="city_name_image"><span>Toronto</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/northAmerica/losAngeles_northAmerica.html">
+                            <img src="img/losAngeles_northAmerica.jpg" alt="">
+                            <h1 class="city_name_image"><span>Los Angeles</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/europe/london_europe.html">
+                            <img src="img/london_europe.jpg" alt="">
+                            <h1 class="city_name_image"><span>London</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/europe/paris_europe.html">
+                            <img src="img/paris_europe.jpg" alt="">
+                            <h1 class="city_name_image"><span>Paris</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/southAmerica/bogota_southAmerica.html">
+                            <img src="img/bogota_southAmerica.jpg" alt="">
+                            <h1 class="city_name_image"><span>Bogotá</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/europe/prague_europe.html">
+                            <img src="img/charlesBridge_prague.jpg" alt="">
+                            <h1 class="city_name_image"><span>Prague</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/northAmerica/chicago_northAmerica.html">
+                            <img src="img/chicago_northAmerica.jpg" alt="">
+                            <h1 class="city_name_image"><span>Chicago</span></h1>
+                        </a>
+                    </div>
+                    <div class="city_grid_image">
+                        <a href="pages/asia/seoul_asia.html">
+                            <img src="img/seoul_asia.jpg" alt="">
+                            <h1 class="city_name_image"><span>Seoul</span></h1>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="about_us">
+                <p class="text_center_footer">Made by students of the Czech University of Life Sciences Prague</p>
+                <p class="text_center_footer">Authors: Dmitrii Bogaciov, Dmitriy Shemet, Denis Bykov</p>
+                <p class="text_center_footer">Student project 2021</p>
+            </div>
+        </div>
+    </footer>
+    </body>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="js/script.js"></script>
 </div>
